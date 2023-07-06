@@ -1,0 +1,75 @@
+#searchBus{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	
+}
+#searchBus>form>label{
+	font-size: 25px;
+    margin-left: 20px;
+}
+
+#searchBus>label>input{
+   /* padding: 10px 10px 10px 70px; */
+   padding-left: 10px;
+   margin-left: 40px;
+   font-size: 20px;
+   width: 300px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: 1px solid rgb(185, 178, 178);
+   outline: none;
+}
+#searchBus>button{
+	margin-left: 20px;
+	padding: 9px 20px 9px 20px;
+	background-color: teal;
+	color: white;
+	border-radius: 5px;
+	border: none;
+}
+#searchBus>button:hover{
+	cursor: pointer;
+	background-color: rgb(26, 117, 31);
+}
+.searchAppend>table{
+	margin: auto;
+	margin-top: 10px;
+}
+
+
+#customers {
+	
+	border-collapse: collapse;
+	width: 80%;
+  }
+  
+  #customers td, #customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+
+  
+  #customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+  }
+  #customers>tbody>tr>td>a>button{
+	padding: 9px 20px 9px 20px;
+	background-color: teal;
+	color: white;
+	border-radius: 5px;
+	border: none;
+  }
+
+  #customers>tbody>tr>td>a>button:hover{
+	cursor: pointer;
+	background-color: rgb(26, 117, 31);
+  }

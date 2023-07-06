@@ -1,0 +1,26 @@
+.seatA{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#seatdiv{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: -20px;
+	width: 40%;
+	margin: auto;
+}
+#seatdiv>div{
+	border: 1px solid black;
+	width: 100%;
+	
+}
+#seatdiv>div>button{
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	width: 90%;
+	margin-bottom: 20px;
+	height: 40px;
+}

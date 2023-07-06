@@ -1,0 +1,47 @@
+.paymentform{
+	margin-top: 90px;
+}
+#pay{
+	/* border: 1px solid red; */
+	/* width: 10%; */
+	margin: auto;
+	
+}
+.pl{
+	display: block;
+	margin: auto;
+	font-size: 20px;
+}
+.pi{
+	display: block;
+	margin: auto;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	width: 100%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid rgb(185, 178, 178);
+	outline: none;
+	font-size: 16px;
+}
+form{
+	/* border: 1px solid black; */
+	margin: auto;
+	width: 30%;
+}
+
+#btnpay{
+	font-size: 20px;
+	color: white;
+	background-color: teal;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	border: none;
+}
+#btnpay:hover{
+	cursor: pointer;
+	background-color: rgb(26, 117, 31);
+}
