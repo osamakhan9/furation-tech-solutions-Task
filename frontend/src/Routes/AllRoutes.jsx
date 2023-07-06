@@ -3,10 +3,10 @@ import { Route ,Routes} from 'react-router-dom'
 import Home from '../components/Home'
 import Login from '../components/Login'
 import Register from '../components/Register'
-import SeatBook from '../components/SeatBook'
+import SeatBook from '../components/SeatCheck'
 import PrivateRoutes from './PrivateRoutes'
 import Cart from '../components/Cart'
-import AllBookeTicket from '../components/AllBookeTicket'
+import AllBookeTicket from '../components/ALL'
 import PayNow from '../components/PayNow'
 
 const AllRoutes = () => {

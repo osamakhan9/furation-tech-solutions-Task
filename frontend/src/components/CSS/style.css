@@ -1,0 +1,20 @@
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	color: white;
+	justify-content: space-around;
+	padding: 20px;
+}
+.login_btn>a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	background-color: teal;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+}
+.login_btn>a:hover{
+	cursor: pointer;
+	background-color: rgb(26, 117, 31);
+}
